@@ -102,7 +102,7 @@ function gameLoop(currentTime) {
     zombieCountElement.textContent = enemies.length;
 
     // Check for game over condition
-    if (enemies.length > 10) {
+    if (enemies.length > 30) {
         gameOver = true;
     }
 
